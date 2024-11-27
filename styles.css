@@ -1,0 +1,199 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'PT Arial', sans-serif;
+    background-color: #f8f3fc; /* Soft lavender background */
+    color: #2d1b3c; /* Deep purple text */
+    line-height: 1.8;
+    scroll-behavior: smooth;
+}
+
+/* Header Styling */
+header {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #c278ef; /* Rich purple */
+    color: #fff; /* White text */
+    border-bottom: 5px solid #9c76ca; /* Darker purple for emphasis */
+}
+
+header h1 {
+    font-size: 2.8rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #4a148c; /* Dark purple */
+    text-align: center;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff; /* White text */
+    font-weight: bold;
+    font-size: 1.1rem;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #6a1b9a; /* Light purple hover effect */
+}
+
+/* Section Styling */
+.section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.section h2 {
+    color: #4a148c; /* Dark purple */
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #6a1b9a;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f3e5f5; /* Soft lavender highlight */
+    border-radius: 10px;
+}
+
+/* About Me Section */
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.about-picture {
+    width: 150px; /* Fixed width */
+    height: 150px; /* Fixed height */
+    border-radius: 50%; /* Makes it round */
+    object-fit: cover; /* Ensures the image scales properly */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    flex-shrink: 0; /* Prevents shrinking when text takes up space */
+}
+
+/* Project Cards */
+.project-card {
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #fff; /* White card background */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 700px;
+    text-align: center;
+}
+
+.project-card h3 {
+    margin-top: 20px;
+    font-size: 1.8rem;
+    color: #4a148c;
+}
+
+.project-card p {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #2d1b3c;
+}
+
+/* Slider for Projects */
+.project-slider {
+    position: relative;
+    overflow: hidden;
+    max-height: 300px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.project-slider img {
+    width: 100%;
+    transition: transform 0.3s ease;
+    display: block;
+}
+
+.slider-controls {
+    margin-top: 10px;
+}
+
+.slider-controls button {
+    background-color: #6a1b9a;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    margin: 0 5px;
+    border-radius: 4px;
+}
+
+.slider-controls button:hover {
+    background-color: #4a148c;
+}
+
+/* Divider */
+hr {
+    border: none;
+    height: 2px;
+    background-color: #e0d7ee; /* Light purple line */
+    margin: 30px 0;
+}
+
+/* Contact Section */
+#contact ul {
+    list-style: none;
+    margin-top: 20px;
+}
+
+#contact ul li {
+    margin: 10px 0;
+}
+
+#contact ul li a {
+    color: #4a148c;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#contact ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #6a1b9a;
+    color: #fff;
+    padding: 20px;
+    margin-top: 40px;
+    font-size: 0.9rem;
+}
+
+
